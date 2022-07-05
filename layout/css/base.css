@@ -1,0 +1,47 @@
+:root{
+  --primary: #FAA500;
+  --dark: #353535;
+  --darkgray: #787D83;
+  --gray: #EFEFEF;
+  --lightgray: #FAFAFA;
+  --white: #fff;
+
+  --color1: #DEAC71;
+  --color2: #D37164;
+  --color3: #6497D3;
+  --color4: #3C3B79;
+  --color5: #1C1A19;
+  --color6: #D84E4B;
+  --color7: #CFC9B0;
+  --color8: #EAE9E5;
+
+}
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--dark);
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+.section{
+  width: 1300px;
+  margin: 0 auto;
+}
+.section__title{
+  display: block;
+  text-align: center;
+}
+.section__title--large{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 520px){
+  .section{
+    width: 100%;
+    padding: 0 30px;
+  }
+}
